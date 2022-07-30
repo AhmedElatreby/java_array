@@ -1,4 +1,5 @@
 import java.util.Arrays;
+import java.util.Objects;
 
 public class PracticeArrays {
 
@@ -9,9 +10,10 @@ public class PracticeArrays {
         }
         // sort the array with sort function
         Arrays.sort(arr);
+
         // check if the item is the second next in the array
         for (int i = 0; i < arr.length -1 ; i++) {
-            if (arr[i] != arr[i+1]) {
+            if (!Objects.equals(arr[i], arr[i+1])) {
                 return arr[i+1];
             }
         }
