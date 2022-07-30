@@ -1,8 +1,22 @@
+import java.util.Arrays;
+
 public class PracticeArrays {
 
     public static Integer findSecondSmallestItem(Integer[] arr) {
+        // check the array hold more than 2 numbers
+        if (arr.length <= 1) {
+            return null;
+        }
+        // sort the array with sort function
+        Arrays.sort(arr);
+        // check if the item is the second next in the array
+        for (int i = 0; i < arr.length -1 ; i++) {
+            if (arr[i] != arr[i+1]) {
+                return arr[i+1];
+            }
+        }
 
-        return 0;
+        return null;
     }
 
     public static void main(String args[]) {
