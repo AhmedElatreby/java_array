@@ -3,7 +3,11 @@ import java.util.Arrays;
 public class PracticeArrays {
 
     public static Object[] rotateRight(Object[] arr) {
-        return arr;
+        Object [] result = new Object[arr.length];
+        for (int i = 0; i < arr.length; i++) {
+            result[(i+1) % result.length] = arr[i];
+        }
+        return result;
     }
 
     public static void main(String[] args) {
