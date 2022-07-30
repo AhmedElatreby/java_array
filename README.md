@@ -2,4 +2,5 @@
  
  ### nested for loop
  
-![image](https://user-images.githubusercontent.com/35266259/181996054-82cc5781-67a3-4937-beac-ce77c46aa02d.png)
+
+![carbon](https://user-images.githubusercontent.com/35266259/181996078-f7fea872-b563-446c-96e6-9cbfe84d5806.png)
